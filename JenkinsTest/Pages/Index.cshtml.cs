@@ -21,5 +21,16 @@ namespace JenkinsTest.Pages
         {
 
         }
+
+        public string getWelcomeText(string welcomeText = "Welcome")
+        {
+            if (welcomeText == "Welcome") return welcomeText;
+            else return "";
+        }
+
+        public string boo()
+        {
+            return "boo";
+        }
     }
 }
